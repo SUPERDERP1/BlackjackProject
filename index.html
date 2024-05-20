@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Blackjack</title>
+    </head>
+    <body>
+        <section class="page1">
+        <h1>Blackjack</h1> 
+        <hr>
+        
+        
+        <h2>Dealer: <span id="Dealer Hand"></span></h2>
+        <div class="container" id="dealer-cards">
+            <img class="card" id="hidden" src="https://github.com/ImKennyYip/black-jack/blob/master/cards/BACK.png?raw=true">
+            <img class="card" id="d2nd" src="">
+            <img class="card hidden" id="d3" src="">
+            <img class="card hidden" id="d4" src="">
+            <img class="card hidden" id="d5" src="">
+            <img class="card hidden" id="d6" src="">
+            <br>
+            <img class="card hidden" id="d7" src="">
+            <img class="card hidden" id="d8" src="">
+            <img class="card hidden" id="d9" src="">
+            <img class="card hidden" id="d10" src="">
+            <img class="card hidden" id="d11" src="">
+        </div>
+        
+
+
+
+        <h2>You:<span id="Player Hand"></span></h2> 
+        <div class="container" id="player-cards">
+            <img class="card" id="p1st" src="">
+            <img class="card" id="p2nd" src="">
+            <img class="card hidden" id ="p3"src="">
+            <img class="card hidden" id ="p4"src="">
+            <img class="card hidden" id ="p5"src="">
+            <img class="card hidden" id ="p6"src="">
+            <br>
+            <img class="card hidden" id ="p7"src="">
+            <img class="card hidden" id ="p8"src="">
+            <img class="card hidden" id ="p9"src="">
+            <img class="card hidden" id ="p10"src="">
+            <img class="card hidden" id ="p11"src="">
+
+        </div>
+
+    
+        <p id="choice"></p>
+        <br>
+
+        <button id="hit">hit</button>  <button id="stay">stay</button> <button id="newgame">New game</button>
+        <br>
+    
+        <br>
+        
+        
+        
+
+        </section>
+
+        <section class="page2">
+        
+            <button class="bot" id="gamemode">hints</button>
+            <button class="bot" id="testbtn">Run Bot</button>
+
+            <div class="vertcontainer">
+                <h2 id="end text"></h2>
+                <h2>Wins: <span id="wins"></p></h2>
+                <h2>Losses: <span id="losses"></p></h2>
+                <h2>Draws: <span id="draws"></p></h2>
+            </div>
+
+        
+
+            <p id="test4"></p>
+            <p id="test5"></p>
+
+        </section>
+
+
+        <script src="Deck2.js"></script>
+        <script src="Cardcountbot.js"></script>
+    </body>
+ </html>            

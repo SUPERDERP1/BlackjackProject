@@ -1,0 +1,122 @@
+p {
+    text-align: center;
+}
+body {
+    text-align: center;
+    margin: 0px;
+    display: block;
+
+}
+
+.page1 {
+    background-color: darkolivegreen;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 300%;
+}
+button {
+    background-color:indianred;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    color: black;
+    border: 5px solid black;
+    box-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    transition: all 0.3s;
+
+}
+
+button:hover {
+    background-color: black;
+    border-color: black;
+    margin: 10px;
+    transform: scale(110%);
+    color: indianred;
+    
+
+
+}
+
+h2 {
+    color: black;
+    
+    text-align: center;
+}
+hr {
+    background-color: black;
+    color: black;
+    height: 10px;
+    padding-block: 0px;
+}
+img {
+    width: 75px;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+
+    
+}
+ .card {
+   text-align: center;
+   /*animation-name: deal;
+   animation-duration: 10s;
+   animation-timing-function: ease-out;
+   animation-fill-mode: forwards;
+   animation-delay: 0s;*/
+} 
+
+
+img:hover {
+    transform: scale(110%);
+}
+
+#deckcard {
+    position: absolute;
+    bottom: -140px;
+    right: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.hidden {
+    opacity: 0%;
+    position: absolute;
+}
+
+
+.vertcontainer {
+    position: relative;
+    left: -300px;
+}
+
+.bot {
+    background-color: lightgray;
+    
+}
+
+.bot:hover {
+    background-color: black;
+    transform: scale(110%);
+    color: lightgray;
+}
+
+.page2 {
+    background-color: lightgray;
+    border-color: black;
+    border-width: 50px;
+}
+
+section {
+    overflow:hidden;
+}
