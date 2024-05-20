@@ -89,4 +89,54 @@ button.addEventListener('click', (event) => {
         
 
 
+
+});
+
+
+var button = document.getElementById("gamemode");
+
+button.addEventListener('click', (event) => {
+  event.preventDefault();
+    
+    
+
+
+        for (i=0;i<9000;i++) {
+            if (acecountP<1) {
+            decision = cardmatrix[handP-3][handD-2];
+            } else if (acecountP >=1) {
+                decision = cardmatrix[7+handP][handD-2]
+            }
+            document.getElementById("test4").innerHTML = decision;
+            if (decision == "S") {
+                if (auto==1) {
+                stay();
+                newGame();
+                } else {
+                document.getElementById("choice").innerHTML = "stay";
+                }
+                
+            } else if (decision == "H") {
+                if (auto==1) {
+                hitcard();
+                }
+                else {
+                    document.getElementById("choice").innerHTML = "hit";
+                }
+            } else {
+                break
+            } 
+        
+
+             
+        }
+        if (auto==1){
+        stay();
+        newGame();
+        }
+
+        
+
+
+
 });

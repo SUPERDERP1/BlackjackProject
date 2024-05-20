@@ -552,20 +552,6 @@ button.addEventListener('click', (event) => {
 });
 
 
-//hint or play for you
-var button = document.getElementById("gamemode");
-
-button.addEventListener('click', (event) => {
-  event.preventDefault();
-    if (auto==0) {
-        document.getElementById("gamemode").innerHTML = "auto 1 game";
-        auto=1
-    } else if (auto==1) {
-        document.getElementById("gamemode").innerHTML = "hints";
-        auto=0
-    }
-
-});
 
  
 //setting card images and number for the first time

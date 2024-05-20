@@ -19,41 +19,43 @@ button.addEventListener('click', (event) => {
             decision = tally
             if (handP<17) {
             if (decision<1 && handP>12) {
-                if (auto==1){
+
 
                 stay();
                 newGame();
-                } else {
-                document.getElementById("choice").innerHTML = "stay";
-                }
+
+
+                
 
                 
             } else if (decision>=0, handP<=12) {
-                if (auto==1) {
+
                 hitcard();
-                } else {
-                document.getElementById("choice").innerHTML = "hit";
-                }
+
+
+
+
             } else {
                 break
             } 
             }
             if (handP>=17) {
             if (decision<0 && handP<19) {
-                if (auto==1) {
+
+
                 hitcard();
-                } else {
-                document.getElementById("choice").innerHTML = "hit";
-                }
+
+
+
 
                 
             } else if (decision>=0,handP>=19) {
-                if (auto==1) {
+
                 stay();
                 newGame();
-                } else {
-                document.getElementById("choice").innerHTML = "stay";
-                }
+
+
+
             } else {
                 break
             } 
@@ -61,13 +63,59 @@ button.addEventListener('click', (event) => {
 
              
         }
-        if (auto==1) {
+
+
         stay();
         newGame();
-        }
+
         
 
         
+
+
+});
+
+
+
+var button = document.getElementById("gamemode");
+
+button.addEventListener('click', (event) => {
+  event.preventDefault();
+    
+    for (i=0;i<9000;i++) {
+            decision = tally
+            if (handP<17) {
+            if (decision<1 && handP>12) {
+
+                document.getElementById("choice").innerHTML = "stay";
+                
+
+                
+            } else if (decision>=0, handP<=12) {
+
+                document.getElementById("choice").innerHTML = "hit";
+
+            } else {
+                break
+            } 
+            }
+            if (handP>=17) {
+            if (decision<0 && handP<19) {
+                document.getElementById("choice").innerHTML = "hit";
+
+
+                
+            } else if (decision>=0,handP>=19) {
+
+                document.getElementById("choice").innerHTML = "stay";
+
+            } else {
+                break
+            } 
+            }
+
+             
+        }
 
 
 });
