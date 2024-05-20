@@ -22,8 +22,9 @@ h1 {
 button {
     background-color:indianred;
     text-align: center;
+
     font-size: 200%;
-    font-weight: bold;
+    font-weight: normal;
     color: black;
     border: 5px solid black;
     box-align: center;

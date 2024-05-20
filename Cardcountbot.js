@@ -34,12 +34,14 @@ button.addEventListener('click', (event) => {
 
 
 
+
             } else {
                 break
             } 
             }
             if (handP>=17) {
             if (decision<0 && handP<19) {
+
 
                 hitcard();
 
@@ -61,6 +63,7 @@ button.addEventListener('click', (event) => {
 
              
         }
+
 
         stay();
         newGame();
@@ -113,5 +116,6 @@ button.addEventListener('click', (event) => {
 
              
         }
+
 
 });

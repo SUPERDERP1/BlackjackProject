@@ -553,7 +553,6 @@ button.addEventListener('click', (event) => {
 
 
 
-
  
 //setting card images and number for the first time
 document.getElementById("d2nd").src = startlink + d2nd + endlink;
