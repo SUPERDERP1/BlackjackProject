@@ -13,7 +13,7 @@ To get a hint press the HINT button.
 <br>
 To have the bot play a game or two, press the RUN BOT button.
 <br>
-<pre>In order to switch bots, go into index.html and change the line <script src="cardcountbot.js"> to <script src="bot1.js">. this changes from a card counting bot to the bot that uses the strategy chart.<pre>
+In order to switch bots, go into index.html and change the line <script src="cardcountbot.js"> to <script src="bot1.js">. this changes from a card counting bot to the bot that uses the strategy chart.
 <br>
 <br>
 Made by Jett and Max
