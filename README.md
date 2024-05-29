@@ -18,6 +18,6 @@ Made by Jett and Max
 <br>
 <br>
 <br>
-In order to switch bots, go into index.html and change the line <br> <script src="cardcountbot.js"> to <script src="bot1.js">.<br> This changes the bot from a bot that uses card counting, to a bot that uses the strategy chart.
+In order to switch bots, go into index.html and change the line <br> <script src="cardcountbot.js"> to <script src="bot1.js">.<br> This changes the bot from a bot that uses card counting, to a bot that uses the strategy chart. THIS MAY NOT WORK AS WELL AS IT IS LESS TESTED
 <br>
-<h3>THIS MAY NOT WORK/ NOT AS TESTED</h3>
+
