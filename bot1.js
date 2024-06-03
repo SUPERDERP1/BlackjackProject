@@ -36,11 +36,6 @@ var decision = 0;
 
 
 
-const open = document.getElementById("open");
-
-open.addEventListener("click", function() {
-   window.open()
-});
 
 
 
