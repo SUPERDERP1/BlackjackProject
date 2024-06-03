@@ -36,12 +36,10 @@ var decision = 0;
 
 
 
-const w = window.open()
-
 const open = document.getElementById("open");
 
 open.addEventListener("click", function() {
-   w()
+   window.open()
 });
 
 
